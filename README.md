@@ -101,9 +101,9 @@ Graphs were generated with random directed edges using a fixed seed for reproduc
 
 | Graph Size | Vertices | Edges | BFS Time (ns) | DFS Time (ns) |
 |------------|----------|-------|---------------|---------------|
-| Small      | 10       | 20    | 12,828,862    | 2,226,287     |
-| Medium     | 30       | 80    | 815,810       | 753,569       |
-| Large      | 100      | 300   | 13,277,274    | 6,974,322     |
+| Small      | 10       | 20    | 2,414,800     | 657,400       |
+| Medium     | 30       | 80    | 1,059,200     | 688,200       |
+| Large      | 100      | 300   | 2,841,300     | 1,867,100     |
 
 ### Observations
 - Both BFS and DFS have the same theoretical complexity O(V + E), confirmed by results
